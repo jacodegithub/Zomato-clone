@@ -1,0 +1,135 @@
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.header-logo {
+    max-width: 140px;
+    height: 27px;
+    cursor: pointer;
+    margin-right: 24px;
+}
+
+.location-icon {
+    font-size: 25px;
+    color: red;
+}
+
+/* SEARCH-BAR-SECTION */
+.header-right {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+}
+
+.header-location-search-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 8px;
+    border: var(--border-white);
+    box-shadow: var(--primary-box-shadow);
+    background: var(--priyary-search-bg);
+    height: 54px;
+    width: 70%;
+}
+
+.location-wrapper {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.location-icon-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.zomato-location-name {
+    color: var(--zomato-location-grey);
+    font-size: 16px;
+}
+
+.caret-icon {
+    cursor: pointer;
+}
+
+.header-search-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 2;
+}
+
+.search-bar-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.search-input {
+    height: 50px;
+    width: inherit;
+    outline: none;
+    border: none;
+    font-size: 14px;
+}
+
+.search-bar-icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    margin: -1px -0.6rem -1px -1px;
+}
+
+.search-icon {
+    color: grey;
+    font-size: 25px;
+}
+
+.location-search-separator {
+    height: 20px;
+    border: .5px solid var(--location-separator);
+}
+
+/* PROFILE-SECTION */
+.profile-wrapper {
+    flex: 1;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.login {
+    color: var(--zomato-location-grey);
+    border-radius: 5px;
+    padding: 10px;
+}
+.login:hover {
+    color: grey;
+    cursor: pointer;
+    border: 1px solid red;
+}
+.signUp {
+    color: var(--zomato-location-grey);
+    border-radius: 5px;
+    padding: 10px;
+}
+.signUp:hover {
+    color: grey;
+    cursor: pointer;
+    border: 1px solid red;
+}

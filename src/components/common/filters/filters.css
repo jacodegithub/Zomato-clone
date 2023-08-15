@@ -1,0 +1,32 @@
+.filter-list{
+    padding: 16px 0;
+}
+
+.filter-list-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.filter-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 14px 10px 0px;
+    padding: 6px;
+    border: 1px solid var(--border-grey);
+    border-radius: 8px;
+    color: rgb(156, 156, 156);
+    font-size: 14px;
+    height: 25px;
+}
+.filter-item:hover {
+    background-color: var(--filter-bg-hover);
+}
+
+.filter-icon {
+    margin-right: 2px;
+    display: flex;
+    align-items: center;
+}
+
+

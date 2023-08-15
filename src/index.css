@@ -1,0 +1,16 @@
+
+@import '../src/globleVariables/globleStyle.css';
+@import '../src/globleVariables/vaiables.css';
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+

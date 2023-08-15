@@ -1,0 +1,50 @@
+.night-life-carousel-container {
+    width: 260px;
+    height: 320px;
+    position: relative;
+}
+
+.night-life-img-wrapper {
+    width: 260px;
+    height: 320px;
+    border-radius: 10px;
+    
+}
+
+.night-life-img {
+    width: 260px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.night-life-img-text-container {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: white;
+    position: absolute;
+}
+
+.top-text {
+    position: absolute;
+    line-height: 17px;
+    bottom: 45px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.bottom-text {
+    position: absolute;
+    bottom: 20px;
+    line-height: 17px;
+    left: 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.bottom-text > span {
+    font-size: 14px;
+    margin-left: 10px;
+}

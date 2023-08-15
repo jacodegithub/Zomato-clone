@@ -1,0 +1,51 @@
+.top-brand-carousel-wrapper {
+    height: 275px !important;
+}
+
+.top-brand-item {
+    height: 246px;
+    width: 150px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-brand-item-img {
+    border: 0.5px solid rgb(232, 232, 232);
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 12px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 148px;
+    height: 150px;
+    margin: 0px !important;
+}
+
+.top-brand-img {
+    width: 116px;
+    height: 119px
+}
+
+.top-brand-item-title {
+    line-height: 1.2;
+    color: rgb(28, 28, 28);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0px 0px;
+    word-break: break-word;
+}
+
+.top-brand-item-time {
+    line-height: 1.2;
+    font-weight: 400;
+    color: rgb(28, 28, 28);
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.collection-title {
+    margin: 30px 0px 3.2rem;
+}
+
